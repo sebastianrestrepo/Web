@@ -1,0 +1,97 @@
+$mont: 'Montserrat',
+sans-serif;
+$open: 'Open Sans',
+sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(imagenes/cover.png);
+    width: 100%;
+    height: 40%;
+        .banner {
+            width: 100%;
+            height: 100%;
+            .color {
+                background: black;
+                opacity: 0.5;
+                width: 100%;
+                height: 100%;
+            h1 {
+                font: 35px $mont;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+                top: 43%;
+                position: relative;
+            }
+        }
+    }
+}
+
+.banner:hover {
+    .color {
+        opacity: 0.7;
+        transition: .3s ease-in-out;
+        h1{
+            opacity: 0.8;
+        }
+    }
+}
+
+.parrafo {
+    margin: 30px;
+    p {
+        width: 70%;
+        font: 16px $open;
+        margin: 0 auto;
+    }
+}
+
+.articulos {
+    width: 85%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 12%;
+    article {
+        margin: 0.5%;
+        width: 23%;
+        display: inline-block;
+        .sherlock1 {
+            height: 100%;
+            background-image: url(imagenes/sherlock1.png);
+        }
+        .sherlock2 {
+            height: 100%;
+            background-image: url(imagenes/sherlock2.png);
+        }
+        .sherlock3 {
+            height: 100%;
+            background-image: url(imagenes/sherlock3.png);
+        }
+        .sherlock4 {
+            height: 100%;
+            background-image: url(imagenes/sherlock4.png);
+        }
+        :nth-child(2) {
+            padding: 2%;
+            background: #2542FF;
+            font: 16px $open;
+            color: white;
+        }
+        :nth-child(3) {
+            padding: 2%;
+            background: #DEDFFF;
+            font: 16px $open;
+            color: black;
+        }
+        :last-child {
+            padding: 2%;
+            background: #DEDFFF;
+            font: 16px $open;
+            color: black;
+        }
+    }
+}
