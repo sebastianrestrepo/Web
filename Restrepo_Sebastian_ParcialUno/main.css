@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+
+section .encabezado {
+  background-color: #ff2549;
+  justify-content: center;
+}
+
+section .encabezado h1 {
+  padding: 2%;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+section #contMensajes {
+  height: 550px;
+  background-color: #dbdbdb;
+  padding: 2%;
+}
+
+section #contMensajes #msj {
+  color: white;
+  background-color: #ff2549;
+  padding: 0.8%;
+  font-weight: 400;
+}
+
+section .footerContenedor {
+  align-items: center;
+  background-color: #dbdbdb;
+  padding: 2%;
+}
+
+section .footerContenedor input {
+  width: 69%;
+}
+
+section .footerContenedor #enviar {
+  border: none;
+  background-color: #ff2549;
+  color: white;
+  padding: 0.4%;
+  width: 29%;
+  height: 100%;
+}
+/*# sourceMappingURL=main.css.map */

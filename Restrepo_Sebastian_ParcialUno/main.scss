@@ -1,0 +1,53 @@
+$rojo: rgb(255, 37, 73);
+$lato: 'Lato',
+sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    font-family: $lato;
+    .encabezado {
+        background-color: $rojo;
+        justify-content: center;
+        h1 {
+            padding: 2%;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+    #contMensajes {
+        height: 550px;
+        background-color: rgb(219, 219, 219);
+        padding: 2%;
+        #msj {
+            color: rgb(255, 255, 255);
+            background-color: $rojo;
+            padding: 0.8%;
+            font-weight: 400;
+        }
+    }
+    .footerContenedor {
+        align-items: center;
+        background-color: rgb(219, 219, 219);
+        padding: 2%;
+        input {
+            width: 69%;
+        }
+        #enviar {
+            border: none;
+            background-color: $rojo;
+            color: white;
+            padding: 0.4%;
+            width: 29%;
+            height: 100%;
+        }
+    }
+}
